@@ -14,7 +14,7 @@ class Seto {
 class FlutterLocalizePackage1 {
   static Future<dynamic> gotoPageLocalize1(BuildContext context,
       {String url, String name}) async {
-    return await Navigator.of(context).push(
+    return await Navigator.of(context, rootNavigator: true).push(
       MaterialPageRoute(
         builder: (context) => MyApp1(),
       ),
