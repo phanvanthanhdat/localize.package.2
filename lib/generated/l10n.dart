@@ -38,7 +38,7 @@ class S {
   /// `Hello1`
   String get Hello1 {
     return Intl.message(
-      'Hello1',
+      'no fauld',
       name: 'Hello1',
       desc: '',
       args: [],
